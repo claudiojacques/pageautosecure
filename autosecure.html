@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planos de Seguro de Automóvel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .header {
+            background-color: #007BFF;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .planos {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+        .plano {
+            background: white;
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .plano h3 {
+            margin-top: 0;
+        }
+        .plano ul {
+            list-style: none;
+            padding: 0;
+        }
+        .plano ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .plano ul li:last-child {
+            border: none;
+        }
+        .plano .preco {
+            font-size: 1.5em;
+            color: #007BFF;
+            margin: 20px 0;
+        }
+        .plano .botao {
+            display: block;
+            width: 100%;
+            text-align: center;
+            background: #007BFF;
+            color: white;
+            padding: 10px 0;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Planos de Seguro de Automóvel</h1>
+    </div>
+    <div class="container">
+        <div class="planos">
+            <div class="plano">
+                <h3>Plano Básico</h3>
+                <ul>
+                    <li>Cobertura contra terceiros</li>
+                    <li>Assistência 24 horas</li>
+                    <li>Reparo em rede credenciada</li>
+                </ul>
+                <p class="preco">R$ 49,90/mês</p>
+                <a href="#" class="botao">Escolher Plano</a>
+            </div>
+            <div class="plano">
+                <h3>Plano Intermediário</h3>
+                <ul>
+                    <li>Cobertura contra terceiros</li>
+                    <li>Assistência 24 horas</li>
+                    <li>Reparo em rede credenciada</li>
+                    <li>Carro reserva</li>
+                    <li>Proteção contra roubo e furto</li>
+                </ul>
+                <p class="preco">R$ 79,90/mês</p>
+                <a href="#" class="botao">Escolher Plano</a>
+            </div>
+            <div class="plano">
+                <h3>Plano Avançado</h3>
+                <ul>
+                    <li>Cobertura contra terceiros</li>
+                    <li>Assistência 24 horas</li>
+                    <li>Reparo em rede credenciada</li>
+                    <li>Carro reserva</li>
+                    <li>Proteção contra roubo e furto</li>
+                    <li>Franquia reduzida</li>
+                    <li>Proteção contra fenômenos naturais</li>
+                </ul>
+                <p class="preco">R$ 99,90/mês</p>
+                <a href="#" class="botao">Escolher Plano</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
